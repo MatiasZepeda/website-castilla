@@ -10,30 +10,30 @@ export default function Header() {
     <header className="bg-white shadow-sm sticky top-0 z-50">
       <nav className="mx-auto max-w-7xl px-6 py-4">
         <div className="flex items-center justify-between">
-          <Link href="/" className="text-2xl font-bold text-blue-900">
+          <Link href="/" className="text-2xl font-bold text-[#1a365d]">
             Castilla Suministros
           </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">
-            <Link href="/" className="text-gray-700 hover:text-blue-900 transition">
+            <Link href="/" className="text-[#525252] hover:text-[#ea580c] transition-colors">
               Inicio
             </Link>
-            <Link href="/quienes-somos" className="text-gray-700 hover:text-blue-900 transition">
+            <Link href="/quienes-somos" className="text-[#525252] hover:text-[#ea580c] transition-colors">
               Quiénes Somos
             </Link>
-            <Link href="/servicios" className="text-gray-700 hover:text-blue-900 transition">
+            <Link href="/servicios" className="text-[#525252] hover:text-[#ea580c] transition-colors">
               Servicios
             </Link>
-            <Link href="/importaciones" className="text-gray-700 hover:text-blue-900 transition">
+            <Link href="/importaciones" className="text-[#525252] hover:text-[#ea580c] transition-colors">
               Importaciones
             </Link>
-            <Link href="/sectores" className="text-gray-700 hover:text-blue-900 transition">
+            <Link href="/sectores" className="text-[#525252] hover:text-[#ea580c] transition-colors">
               Sectores
             </Link>
             <Link
               href="/contacto"
-              className="bg-blue-900 text-white px-6 py-2 rounded-lg hover:bg-blue-800 transition"
+              className="bg-[#ea580c] text-white px-6 py-2 rounded-lg hover:bg-[#c2410c] transition-all shadow-md hover:shadow-lg"
             >
               Contacto
             </Link>
@@ -41,7 +41,7 @@ export default function Header() {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden text-gray-700"
+            className="md:hidden text-[#525252]"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -53,24 +53,24 @@ export default function Header() {
         {/* Mobile Navigation */}
         {mobileMenuOpen && (
           <div className="md:hidden mt-4 pb-4 flex flex-col gap-4">
-            <Link href="/" className="text-gray-700 hover:text-blue-900 transition">
+            <Link href="/" className="text-[#525252] hover:text-[#ea580c] transition-colors">
               Inicio
             </Link>
-            <Link href="/quienes-somos" className="text-gray-700 hover:text-blue-900 transition">
+            <Link href="/quienes-somos" className="text-[#525252] hover:text-[#ea580c] transition-colors">
               Quiénes Somos
             </Link>
-            <Link href="/servicios" className="text-gray-700 hover:text-blue-900 transition">
+            <Link href="/servicios" className="text-[#525252] hover:text-[#ea580c] transition-colors">
               Servicios
             </Link>
-            <Link href="/importaciones" className="text-gray-700 hover:text-blue-900 transition">
+            <Link href="/importaciones" className="text-[#525252] hover:text-[#ea580c] transition-colors">
               Importaciones
             </Link>
-            <Link href="/sectores" className="text-gray-700 hover:text-blue-900 transition">
+            <Link href="/sectores" className="text-[#525252] hover:text-[#ea580c] transition-colors">
               Sectores
             </Link>
             <Link
               href="/contacto"
-              className="bg-blue-900 text-white px-6 py-2 rounded-lg hover:bg-blue-800 transition text-center"
+              className="bg-[#ea580c] text-white px-6 py-2 rounded-lg hover:bg-[#c2410c] transition-all shadow-md text-center"
             >
               Contacto
             </Link>
