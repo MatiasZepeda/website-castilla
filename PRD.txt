@@ -1,0 +1,86 @@
+Product Requirement Document
+Sitio web corporativo WordPress para empresa de suministros e importaciones
+
+Objetivo principal
+Crear un sitio web informativo que presente de forma clara la empresa, sus líneas de negocio y los servicios ofrecidos. El sitio debe transmitir seriedad, confianza y capacidad operativa para atraer clientes que requieran compra por licitaciones, adquisición de materiales y servicios de importación desde Asia a Chile.
+
+Usuarios objetivos
+Personas y empresas que necesiten
+• Materiales para construcción liviana
+• Artículos de oficina, hogar y empresa
+• Gestión de compras por licitaciones en Chile
+• Servicios de importación de Asia a Chile
+
+Alcance del proyecto
+Sitio web en WordPress con diseño profesional, estructura clara y foco en conversión por formulario o WhatsApp.
+No incluye ecommerce ni manejo de inventario.
+Se prioriza presentación de servicios y captación de leads.
+
+Arquitectura del contenido
+Inicio
+• Presentación de la empresa
+• Servicios destacados
+• Botón de contacto visible
+
+Quiénes somos
+• Perfil de la empresa
+• Experiencia y enfoque de trabajo
+
+Servicios
+• Compra por licitaciones para materiales de construcción liviana
+• Suministro de artículos de oficina, hogar y empresa
+• Servicios de importación desde Asia a Chile (búsqueda de proveedores, consolidación, gestión logística)
+
+Importaciones desde Asia
+• Flujo resumido del servicio
+• Beneficios por tipo de cliente
+• CTA para cotización
+
+Sectores atendidos
+• Empresas constructoras
+• Oficinas y pymes
+• Instituciones públicas que licitan
+• Retail y distribuidores
+
+Contacto
+• Formulario con campos básicos
+• WhatsApp clickeable
+• Datos directos de contacto
+
+Requisitos funcionales
+• WordPress autoadministrable
+• Formularios de contacto conectados al correo
+• Plugin de seguridad y anti spam
+• Plugin para cacheo y carga rápida
+• Responsive adaptable a móvil y escritorio
+• Página de servicios editable desde panel sin necesidad de código
+
+Requisitos no funcionales
+• Carga rápida en dispositivos móviles
+• Hosting compatible con PHP 8 y bases de datos MySQL
+• Diseño sobrio y profesional
+• Seguridad básica implementada
+
+Plugins sugeridos
+• Elementor o Gutenberg extendido para maquetación
+• WPForms o Contact Form 7 para formularios
+• Yoast SEO para metadatos básicos
+• Smush o similar para optimización de imágenes
+• LiteSpeed Cache o similar para rendimiento
+(plugins pueden variar según preferencia del desarrollador)
+
+Estilo visual
+• Diseño sobrio y profesional
+• Paleta en tonos azul, gris y color de acento
+• Tipografía legible y moderna
+• Iconografía simple para servicios
+
+CTA principales
+• Solicitar cotización
+• Contacto por WhatsApp
+• Enviar consulta técnica
+
+Métricas de éxito
+• Formularios enviados
+• Clics al WhatsApp
+• Sesiones en página Servicios
